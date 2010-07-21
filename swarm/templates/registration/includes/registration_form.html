@@ -1,0 +1,41 @@
+{% with forms.registration_form as form %}
+<div id="ly_register" class="ly_box">
+	<div id="am_registering" style="display:none;"><p>Creating your account... <img src="{{ MEDIA_URL }}images/sharing/ffx/ffx_fb_ajax_loader.gif" /></p></div>
+	<div id="am_reg_form_error" class="am_ajax_error" style="display:none;"><p>Apologies, it seems we're experiencing unusual volume. Try again later.</p></div>
+	<form id="am_reg_form" action="{% url registration_ws_register %}" method="POST">
+	<table cellspacing="0">
+	<tr><td class="am_label">{{ form.reg_email.label_tag }}:</td>
+		<td>	
+			{{ form.reg_email }}
+		</td>
+		</tr>
+	<tr><td class="am_label">{{ form.first_name.label_tag }}:</td>
+		<td>	
+			{{ form.first_name }}
+		</td>
+		</tr>
+	<tr><td class="am_label">{{ form.last_name.label_tag }}:</td>
+		<td>	
+			{{ form.last_name }}
+		</td>
+		</tr>
+	<tr><td class="am_label">{{ form.password1.label_tag }}:</td>
+		<td>	
+			{{ form.password1 }}
+		</td>
+		</tr>
+	<tr><td class="am_label">{{ form.user_type.label_tag }}:</td>
+		<td>
+		    <div id="am_user_type">
+			{{ form.user_type }}
+			</div>
+		</td>
+		</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><button type="submit" class="am_reg">Join Now</button></td>
+		</tr>
+	</table>
+	</form>
+</div>
+{% endwith %}

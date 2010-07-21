@@ -1,0 +1,30 @@
+{% extends "base/base.html" %}
+{% load i18n %}
+{% block title %}{{ title|capfirst }}{% endblock %}
+{% block extrameta %}{% endblock %}
+{% block content %}
+<div class="am_col_M_full">
+	<div class="am_M_head"></div>
+	<div class="am_M_body clearfix">
+		<div id="am_profile" class="am_box">
+			<div class="am_fb_data">
+				<div id="am_profile_image"><h1>?</h1></div>
+				{% if profile.user == user %}
+				    <p>It's You!</p>
+				{% else %}
+				    <p>It's {{ profle.user.first_name }}!</p>
+				{% endif %}
+			</div>
+			<div class="am_content" style="float:left;width:700px;">			
+				<h1 class="am_link_profile_title">{{ profile.user.first_name }} {{ profile.user.last_name }}</h1>
+				<p id="am_slug"></p>
+
+			{% if user.is_authenticated %}
+			
+			{% endif %}
+			</div>
+		</div>
+	</div>
+	<div class="am_M_foot"></div>
+</div>
+{% endblock %}

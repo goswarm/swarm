@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://gigs.ly/welcome/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/accounts/login/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/accounts/register/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/browse/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/accounts/login/?next=/publish/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/about/help/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/about/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/about/terms/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/about/privacy/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2010/01/26/huffington-post-monetize-twitter-stream/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/category/twitter/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/advertising/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/huffington-post/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/twitter/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2010/01/25/finding-efficiency-in-social-networks-as-recruiting-tool/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/category/facebook-and-jobs/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/facebook/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/recruiting/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2010/01/15/new-york-times-twitter-advertisements/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/category/economic-thoughts/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/new-york-times/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2010/01/10/facebook-interactions-visualized/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/category/facebook/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/data-visualization/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/facebook-interactions/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/project-palantir/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2010/01/07/npr-on-video-game-industry-jobs/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/npr/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/video-games/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/video-games-jobs/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2010/01/04/facebook-page-101-resources-and-information/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/facebook-page-101/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/facebook-page/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/facebook-resources/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/fan-page/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/fans/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2009/12/30/presentation-recruiting-students-on-social-networks/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/slideshare/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2009/12/27/freelance-jobs-iphone-vs-android/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/android/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/freelance/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/iphone/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/odesk/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2009/12/21/are-facebook-fan-pages-a-cash-cow/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2009/12/15/fan-page-engagement-statistics/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/fan-pages/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2009/12/21/use-social-networks-for-recruiting-employees/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/category/job-search/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/job-search/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/linkedin/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/page/2/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/2010/01/19/ui-web-person/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/2010/01/19/suggest-your-dream-job/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/2010/01/20/suggest-your-dream-job-1/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/2010/01/20/senior-java-engineer/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/2010/01/20/web-developerdesigner/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/2010/01/12/sr-client-service-engineer/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/2010/01/20/senior-product-manager/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/2010/01/20/javaseam-developer/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/2010/01/22/web-engineer/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/2010/01/22/sr-rf-test-engineer/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/2010/01/22/spam-accuracy-software-engineer/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/2010/01/22/sr-rf-engineer/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/2010/01/26/suggest-your-dream-job/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/2010/01/12/uifront-end-web-developer/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/2010/01/12/user-experience-and-design-lead/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/2010/01/13/ui-web-designer/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/2010/01/13/java-developer/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/2010/01/13/sr-java-developer/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/2010/01/12/senior-software-engineer/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/2010/01/14/suggest-your-dream-job-2/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/2010/01/11/product-manager-search/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/2010/01/11/product-marketing-manager/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/2010/01/11/embedded-systems-engineer/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/2010/01/11/pre-sales-engineer/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/2010/01/12/software-design-engineer/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/2010/01/12/software-engineer-c-linux-tcpip/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/2010/01/12/vp-of-engineering-ecommerce/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/2010/01/12/inside-sales-rep/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/2010/01/12/technical-architect-linux-cjava-soap/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/2010/01/12/product-manager-embedded-os/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/about/copyright/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2009/07/28/how-links-are-shared-online/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/category/social-media-and-the-economy/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/links/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/passed-links/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2009/12/17/unemployed-workers-finding-more-job-opportunities-through-social-networking-sites/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/category/twitter-jobs/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/facebook-and-jobs/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/referrals/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/twitter-and-jobs/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2009/12/09/facebook-to-publish-much-more-content-as-public/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2009/12/11/the-cia-and-nsa-want-you-to-be-their-friend-on-facebook/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/jobs/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/seo/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2009/10/26/sean-parker-web-20-summit-video/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/networks/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/sean-parker/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/video/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/web-2-0-summit/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2009/07/27/beyond-job-boards-targeting-the-source-wall-street-journal/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/monster-com/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/wall-street-journal/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2009/12/13/the-power-of-passed-links-and-jobs/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/fred-wilson/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/marketplace-2-0/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/social-marketplace/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2009/08/09/value-of-internship-connection-value-8000/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/internships/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/category/uncategorized/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2009/12/17/james-alutcher-bullish-on-the-economy-and-employment/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2009/12/10/unemployment-time-lapse-video/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2009/07/28/online-job-boards-still-get-the-job-done/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/online-jobs/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/resume/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2009/07/24/water-water-everywhere/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/category/economics/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/economy/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/james-altucher/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2009/09/08/new-job-is-just-a-tweet-away/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/category/twitter-and-jobs/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2009/08/22/online-job-sites-see-boost-in-traffic/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/page/3/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2009/07/28/tweet-your-way-to-a-new-job/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2009/08/06/online-jobs-show-mild-improvement-for-july-2009/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/economic-data/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/oreilly/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2009/07/27/using-twitter-and-facebook-to-find-a-job/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2009/08/06/24-of-tweets-are-from-bots-twitter-job-search-needs-help/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2009/08/11/speeding-up-the-hiring-process-using-twitter/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2009/07/24/wall-street-journal-twitter-and-jobs/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2009/08/18/looking-for-a-job-try-linkedin-or-twitter/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/google/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/resumes/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/twesumes/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/mashable/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/summize/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/tag/twitter-and-spam/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2009/07/24/twitter-to-find-a-job/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/2009/07/24/cnn-i-found-my-job-on-twitter/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://gigs.ly/blog/page/4/</loc>
+  <lastmod>2010-01-27T08:06:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+</urlset>

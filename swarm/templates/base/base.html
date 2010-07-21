@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" xml:lang="en" lang="en">
+<head>
+	<title>{% block title %}{{ site.seo_title_phrase }}{% endblock %} | Amigeo: Serving the Green Economy</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta  name="description" content="{{ site.seo_description }}" />
+	<meta property="og:description" content="{{ site.seo_description }}" />
+	<meta property="og:title" content="{{ title }}" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://{{ site.root_url }}" />
+	<meta property="og:site_name" content="{{ site.root_url|capfirst }}"/>
+{% include 'base/base_styles.html' %}
+{% block extrahead %}{% endblock %}
+</head>
+{% load i18n %}
+<body class="{% if is_popup %}am_popup{% endif %} {% block bodyclass %}{% endblock %}">
+<!-- Main Container -->
+<div id="am_main">
+	<!-- Header -->
+	{% block header %}
+		{% if user.is_authenticated %}
+			{% include 'includes/personal_banner.html' %}
+		{% else %}
+			{% include 'includes/welcome_auth.html' %}
+		{% endif %}
+	{% endblock %}
+	<!-- END Header -->
+	<!-- Content -->
+	<div id="am_content" class="{% block contentclass %}{% endblock %} clearfix">
+		{% if messages %}
+		<div id="am_messages" class="clearfix">
+			<div class="ui-state-highlight ui-corner-all" style="padding: 0px 0.7em;">
+				{% for message in messages %}<p class='clearfix'><span class="ui-icon ui-icon-info" style="float: left; margin: 0.2em;"></span>{{ message|safe }}</p>{% endfor %}
+			</div>
+		</div>
+		{% endif %}
+	{% block content %}
+		{{ content }}
+	{% endblock %}
+	</div>
+	<div id="am_content_foot"></div>
+	<!-- END Content -->
+	<!-- Footer -->
+	{% block footer %}
+	<div id="am_footer"></div>
+	{% endblock %}
+	<!-- END Footer -->
+	{% block overlay %}{% endblock %}
+</div>
+<!-- END Main Container -->
+{% include 'base/base_javascript.html' %}
+{% block extrajs %}{% endblock %}
+</body>
+</html>

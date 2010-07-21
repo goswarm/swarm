@@ -1,0 +1,17 @@
+{% extends "base/base.html" %}
+{% load i18n %}
+
+{% block title %}Logged Out{% endblock %}
+
+{% block content %}
+<div class="ly_col_M_full">
+	<div class="ly_M_head"></div>
+	<div class="ly_M_body">
+	<div class="ly_box">
+		<h3>Thank you for visiting {{ site.brand_name }}.</h3>
+		<p>We're a social marketplace for jobs{% if not site.is_root %} powered by <a href="http://gigs.ly">Gigs.ly</a>{% endif %}.</p>
+	</div>
+	</div>
+	<div class="ly_M_foot"></div>
+</div>
+{% endblock %}

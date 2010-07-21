@@ -1,0 +1,25 @@
+{% load i18n %}
+	{% if user.is_authenticated %}
+<div id="am_welcome">
+	<a href="/people/{{ user.get_profile.vanity_name }}/">{% trans 'Hello,' %} {% if user.first_name %}{{ user.first_name }}{% else %}{{ user.username }}{% endif %}</a> | 
+	<a href="/accounts/logout/">Logout</a>
+</div>
+	{% else %}
+<div id="am_authenticate">
+	<div id="am_authenticating" style="display:none;"><p>Logging in... <img src="{{ MEDIA_URL }}images/sharing/ffx/ffx_fb_ajax_loader.gif" /></p></div>
+	<div id="am_auth_form_error" class="am_ajax_error" style="display:none;"><p>Apologies, it seems we're experiencing unusual volume. Try again later.</p></div>
+	{% with forms.login_form as form %}
+	<form id="am_auth_form" action="{% url auth_ws_login %}" method="POST">
+		<table cellspacing="0">
+		<tr><td>{{ form.email.label_tag }}{{ form.email }}
+				</td>
+			<td>{{ form.password.label_tag }}{{ form.password }}
+				</td>
+			<td><button class="am_auth" type="submit">Log In</button></td>
+			<td><a href="/password/reset/">Forgot password</a></td>
+			</tr>
+		</table>
+	</form>
+	{% endwith %}
+</div>
+	{% endif %}

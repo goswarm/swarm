@@ -1,0 +1,11 @@
+Welcome to Amigeo,
+
+Please confirm your account. Click, or copy the link into your favorite browser:
+http://www.swarm.com{% url registration_activate activation_key %}
+
+If you did not join Amigeo, do nothing and your account will be deleted within a week. 
+Send inquiries to info@swarm.com.
+
+Serving the Green Economy,
+The Amigeo Team
+www.swarm.com

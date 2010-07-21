@@ -1,0 +1,42 @@
+{% extends "base/base.html" %}
+{% load i18n %}
+
+{% block title %}Login{% endblock %}
+{% block content %}
+<div class="am_col_M_full">
+	<div class="am_M_head"></div>
+	<div class="am_M_body">
+	<div id="am_login" class="am_box">
+		{% if form.errors %}
+		<div class="ui-state-error ui-corner-all" style="padding: 0pt 0.7em;">
+			<h3><span class="ui-icon ui-icon-alert" style="float: left; margin: 0.7em 0.6em 0 0;"></span>Please correct the error{{ form.errors|pluralize }} below.</h3>
+			<ul class="am_errorlist">
+			{% for error in form.non_field_errors %}
+				<li>{{ error }}</li>
+			{% endfor %}
+			{% for error in form.errors %}
+				<li>{{ error }}</li>
+			{% endfor %}
+			</ul>
+		</div>
+		{% endif %}
+		<form action="/accounts/login/" method="POST">
+			<table cellspacing="0">
+			<tr><td>{{ form.email.label_tag }}:<br />{{ form.email }}
+					{{ form.email.errors }}
+					</td>
+					</tr>
+			<tr><td>{{ form.password.label_tag }}:<br />{{ form.password }}
+					{{ form.password.errors }}
+					</td>
+					</tr>
+			<tr><td><button type="submit">Log In</button></td>
+				</tr>
+			<tr><td><a href="/password/reset/">Forgot password</a></td></tr>
+			</table>
+		</form>
+	</div>
+	</div>
+	<div class="am_M_foot"></div>
+</div>
+{% endblock %}

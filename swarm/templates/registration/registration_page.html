@@ -1,0 +1,13 @@
+{% extends "base/base.html" %}
+{% load i18n %}
+
+{% block title %}Create Your {{ site.name }} Account{% endblock %}
+{% block content %}
+<div class="ly_col_M_full">
+	<div class="ly_M_head"></div>
+	<div class="ly_M_body">
+		{% include 'registration/includes/registration_form.html' %}
+	</div>
+	<div class="ly_M_foot"></div>
+</div>
+{% endblock %}

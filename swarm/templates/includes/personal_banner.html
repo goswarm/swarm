@@ -1,0 +1,12 @@
+{% load i18n %}
+<div class="clearfix" id="ly_my_banner">
+	<a href="/people/{{ user.get_profile.vanity_name }}/" style="float:left;margin:10px;"><img src="{% if fb_sso %}http://graph.facebook.com/{{ fb_sso.id }}/picture/{% else %}{{ MEDIA_URL }}images/brandables/{{ site.get_brandable_sans_port }}/ly_nopic_50x50.png{% endif %}" alt="{{ fb_sso.first_name }}" title="{{ fb_sso.first_name }}" width="50px" height="50px" /></a>
+	<div style="float:left;margin-top:8px;">
+		<a href="/people/{{ user.get_profile.vanity_name }}/" style="display:block; font-size:1.8em;">{% if user.first_name %}{{ user.first_name }} {{ user.last_name }}{% else %}{{ user.username }}{% endif %}</a>
+		<a href="/">Home</a> |
+		<a href="http://sites.google.com/a/swarm.com/learn/">Learn more</a> 
+		{% if user.is_authenticated %}|
+		<a href="/accounts/logout/">Logout</a>
+		{% endif %}
+	</div>
+</div>

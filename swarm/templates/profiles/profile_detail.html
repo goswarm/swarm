@@ -1,0 +1,12 @@
+{% extends "base/base.html" %}
+{% load i18n %}
+{% block title %}{{ title|capfirst }}{% endblock %}
+{% block extrameta %}
+	{% if site.seo_description %}
+	<meta  name="description" content="{{ site.seo_description }}" />
+	<meta property="og:description" content="{{ site.seo_description }}" />
+	{% endif %}
+	<meta property="og:title" content="{{ title|capfirst }}" />
+{% endblock %}
+{% block content %}
+{% endblock %}

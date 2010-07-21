@@ -1,0 +1,923 @@
+/* main css file - please compress - if you are reading this in production, you haven't */
+
+* { 
+	padding: 			0;
+	margin:				0;
+	font-family:		"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Bitstream Vera Sans",sans-serif;
+}
+
+html {
+	font-size: 			62.5%;
+	font-size-adjust:	none;
+	font-style:			normal;
+	font-weight:		normal;
+	line-height:		1.5;
+	color:				#777;
+}
+html, body {
+	border:				0;
+	height:				100%;
+}
+body {
+	margin:				0;
+	padding;			0;
+	min-width:			990px;
+}
+body.am_banner {
+	overflow:			hidden;
+}
+a,
+a:link,
+a:visited {
+	color:				#2E74A6;
+	text-decoration:	none;
+}
+a:hover {
+	color:				#6CBCEB;
+	text-decoration:	underline;
+}
+a img {
+	border:				none;
+}
+p { 	
+	font-size:			1.3em;
+}
+
+tr td,
+tr th { 
+	padding:			0 3px 3px 0;
+	vertical-align: 	top;
+	text-align:			left;
+}
+
+h1 { font-size:	2.1em; line-height:	2.6em; }
+h2 { font-size:	1.9em; line-height:	2.5em; }
+h3 { font-size:	1.7em; line-height: 2.4em; }
+h4 { font-size:	1.5em; line-height:	2.3em; }
+h5 { font-size:	1.3em; line-height:	2.2em; }
+h6 { font-size:	1.1em; line-height:	2.1em; }
+
+*.am_awesome_pink {
+	color:				#db4865;
+}
+p.am_home_link {
+    font-size:			2.0em;
+    text-align:			center;
+}
+h6.am_btn {
+	margin-top:			10px;
+}
+label {
+	cursor:				pointer;
+	font-size:			1.2em;
+}
+input, textarea, select {
+	font-size:			1.2em;
+	padding: 			5px;
+	border:				1px solid #c4c4c4;
+	color:				#666666;
+}
+input, select {
+	width:				223px;
+}
+input.am_radio {
+	width:				auto;
+}
+td.am_chk input {
+	width:				auto;
+}
+div#am_user_type ul {
+	list-style: 		none;
+}
+td.am_label {
+	text-align:			right;
+}
+select {
+	padding:			4px;
+	width:				235px;
+}
+textarea {
+	width:				99%;
+	height:				123px;	
+}
+button {
+	padding:			5px;
+	font-size:			1.3em;
+	cursor:				pointer;
+	border:				none;
+	font-weight: 		bold; 
+	background-color:	#4798d0;
+	color:				white;
+	-moz-border-radius:	4px;
+}
+button.am_auth {
+	width:				60px;
+	background-color:	#FCAB40;
+	color:				white;
+	
+}
+ul.am_errorlist {
+	padding:			0 0 10px 20px;
+	font-size:			1.2em;
+	list-style:			disc outside none;
+}
+ul.errorlist {
+	display:			none;
+}
+div.am_error p {
+	padding:			0;
+}
+div.am_error ul {
+	margin:				0 0 10px 25px;
+}
+*.am_error,
+*.am_ajax_error {
+	color:				#c00;
+}
+div.am_error {
+	font-size:			1.1em;
+}
+*.am_ajax_loader {
+	margin:				8px;
+}
+ul.am_ul {	
+	margin:				0 0 10px 25px;
+}
+ul.am_ul li {
+	font-size:			1.3em;
+}
+div#am_messages {
+	padding:			5px 9px 6px;
+	width:				955px;
+}
+
+div#am_messages p {
+	padding:			8px 0;
+}
+
+span.am_required {
+	color:				#db4865;
+	font-size:			1.3em;
+}
+table tr td p {
+	font-size:			1.0em;
+}
+table tr.am_odd td {}
+table tr.am_even {}
+*.am_ajax_loading {
+	background:			transparent url('../images/sharing/ffx/ffx_ajax_loader.gif') no-repeat scroll 50% 50%;
+	min-width:			32px;
+	min-height:			42px;
+	* width:			32px;
+	* height:			42px;
+	
+}
+*.am_ajax_loading_fb {
+	background:			transparent url('../images/sharing/ffx/ffx_fb_ajax_loader.gif') no-repeat scroll 50% 50%;
+	min-width:			16px;
+	min-height:			16px;
+	* width:			16px;
+	* height:			16px;
+}
+input.am_linkselect {
+	width:				140px;
+	cursor:				text;
+}
+a#am_logo {
+	width:				185px;
+	height:				55px;
+	display:			block;
+	position:			absolute;
+	top:				12px;
+	left:				5px;
+}
+/* ================== */
+
+
+/* +++++++++++++++++++++ ++ ++++++++++++++++++++++ ++ +++++++++++++++++++ */
+
+
+/*    FILE INPUTS    */
+div.am_fileinputs {
+	position: 			relative;
+}
+div.am_fakefile {
+	position: 			absolute;
+	top: 				0px;
+	left: 				0px;
+	z-index: 			1;
+}
+input.am_file {
+	position: 			relative;
+	text-align:	 		right;
+	height:				28px;
+	-moz-opacity:		0;
+	filter:				alpha(opacity: 0);
+	opacity: 			0;
+	z-index: 			2;
+}
+div.am_fakefile input {
+	width:				auto;
+}
+/* ================== */
+
+	
+/* +++++++++++++++++++++ ++ ++++++++++++++++++++++ ++ +++++++++++++++++++ */
+
+
+/* PRIMARY STRUCTURE */
+div#am_main {
+	width:				965px;
+	min-height:			650px;
+	margin:				0 0 0 30px;
+	position:			relative;
+}
+div#am_header,
+div#am_header_nonav {
+	width:				965px;
+	height:				75px;
+	padding-top:		75px;
+	position:			relative;
+}
+div#am_header_nonav {
+	height:				85px;
+	padding-top:		0;
+}
+div#am_content {
+	width:				965px;
+	min-height:			300px;
+	padding-bottom:		35px;
+}
+div#am_footer {
+	width:				965px;
+	height:				81px;
+	position:			relative;
+	padding-top:		8px;
+	border-top:			4px solid #7998CF;
+	font-size:			0.8em;
+}
+/* ================== */
+
+
+/* +++++++++++++++++++++ ++ ++++++++++++++++++++++ ++ +++++++++++++++++++ */
+
+
+/* SECONDARY SCTRUCTURE */
+div.am_box {
+	padding:			0 15px 15px;
+}
+div.am_box_I {
+	padding:			0 15px 15px;
+}
+div#am_left_col {
+	width:				400px;
+	float:				left;
+}
+div#am_right_col {
+	width:				400px;
+	float:				left;
+}
+/* ================== */
+
+
+/* +++++++++++++++++++++ ++ ++++++++++++++++++++++ ++ +++++++++++++++++++ */
+
+
+/* == SITE SEARCH === */
+div#am_search_bar {
+	width:				320px;
+	position:			absolute;
+	right:				0;
+	top:				12px;
+}
+div#am_search_bar input {
+	width:				275px;
+	-moz-border-radius:	8px;
+	padding:			5px 0 5px 27px;
+	background:			white url('../images/skin/ffx/search_glass.gif') no-repeat scroll 3px 3px;
+	font-size:			1.5em;
+}
+div#am_search_header {
+	width:				300px;
+	position:			absolute;
+	top:				10px;
+	left:				450px;
+}
+
+/* +++++++++++++++++++++ ++ ++++++++++++++++++++++ ++ +++++++++++++++++++ */
+
+
+/* ==== SITE NAV ==== */
+div#am_nav_bar {
+	height:				55px;
+	border:				2px solid #dce5f4;
+	position:			relative;
+}
+*#am_foot_nav {
+	margin-left:		50px;
+}
+/* ================== */
+
+
+/* +++++++++++++++++++++ ++ ++++++++++++++++++++++ ++ +++++++++++++++++++ */
+
+
+/* == Profile Pages === */
+form#am_new_profile {
+	width:				470px;
+	margin: 			0 auto;
+}
+div#am_profile {
+	padding:			0 10px 20px;
+}
+div#am_my_banner {
+	width:				240px;
+	height:				30px;
+	position:			absolute;
+	top:				15px;
+	right:				15px;
+	font-size:			1.3em;
+}
+div#am_identity {
+	width:				477px;
+	float:				left;
+}
+div#am_identity h3 {
+	font-size:			1.3em;
+	line-height:		auto;
+}
+div#am_business_info {
+	background-color:	#E9f3f9;
+	-moz-border-radius: 8px;
+	margin-bottom:		15px;
+	padding:			12px;
+}
+div#am_address {
+	float:				left;
+	width:				220px;
+	margin-top:			3px;
+}
+div#am_address table tr td {
+	font-size:			1.2em;
+}
+div#am_map {
+	float:				left;
+	height:				125px;
+}
+
+div#am_profile_title {
+	float:				left;
+	margin-left:		15px;
+}
+h1.am_link_profile_title {
+	width:				320px;
+	font-size:			2.0em;
+	line-height:		1.0em;
+	margin:				3px 0 0 0;
+}
+h1.am_link_profile_title a img,
+h1.am_link_profile_title a#am_fb_logo:hover img {
+	text-decoration:	none;
+}
+div#am_green_meter {
+	width:				270px;
+	height:				14px;
+	margin-top:			3px;
+	position:			relative;
+	overflow:			hidden;
+	border:				1px solid #b2cce5;
+	background-color:	#fff;
+}
+div#am_green_meter div#am_meter_bar {
+	width:				63%;
+	height:				14px;
+	background-color:	#98c07b;
+}
+div#am_green_meter span {
+	position:			absolute;
+	left:				37%;
+	text-align:			center;
+	z-index:			2;
+	color:				black;
+	font-weight:		bolder;
+	letter-spacing:		0.13em;
+}
+div#am_profile_image {
+	border:				1px solid #c4c4c4;
+	width:				125px;
+	height:				125px;
+	margin:				0 auto;
+	text-align:			center;
+	float:				left;
+	background-color:	#f8f8f8;
+}
+div.am_col_box {
+	width:				350px;
+	min-height:			150px;
+	* height:			150px;
+	border:				1px solid #b2cce5;
+	font-size:			1.2em;
+	margin-bottom:		20px;
+	-moz-border-radius:	6px;
+}
+div.am_col_box h3 {
+	font-size:			1.2em;
+}
+div.am_col_box table {
+	width:				100%;
+}
+div.am_col_box table tr td label {
+	font-weight:		bolder;
+}
+div.am_ad_box {
+	width:				130px;
+	min-height:			400px;
+	* height:			400px;
+	border:				1px solid #b2cce5;
+	float:				left;
+}
+div#am_products {
+	min-height:			55px;
+}
+img.am_link_logo {
+	margin-right: 		5px;
+	position: 			relative;
+	top: 				15px;
+}
+img.am_big_pic {
+	max-width:			140px;
+	* width:			140px;
+}
+div.am_native {
+	width:				475px;
+}
+div.am_native span.am_eg_text {
+	float: 				left;
+	margin-left:		40px;
+}
+div.am_native a.am_show_native_listing {
+	float:				right;
+	margin-right:		5px;
+}
+/* ================== */
+
+	
+/* +++++++++++++++++++++ ++ ++++++++++++++++++++++ ++ +++++++++++++++++++ */
+
+
+/* === LOGIN FORM === */
+div#am_authenticate table {
+	margin:				2px 10px;
+}
+div#am_authenticate table tr td {
+	padding:			0 0 5px 0;
+}
+div#am_authenticate table tr td input {
+	width:				130px;
+	margin-right:		10px;				
+}
+div#am_authenticating {
+	width:				150px;
+}
+div#am_header div#am_authenticate {
+	min-width:			575px;
+	* width:			575px;
+	position:			absolute;
+	top:				-10px;
+	right:				30px;
+	background-color:	#f5f6f8;
+	padding-top:		15px;
+	border:				1px solid #ccc;
+	-moz-border-radius:	5px;
+}
+div#am_header div#am_authenticate a.am_f_pass {
+	margin:				8px 5px 0 10px;
+	position:			relative;
+	top:				6px;
+}
+div#am_header div#am_auth_form_error {
+	position:			absolute;
+	bottom:				-30px;
+	left:				15px;
+}
+/* ================== */
+
+
+/* +++++++++++++++++++++ ++ ++++++++++++++++++++++ ++ +++++++++++++++++++ */
+
+
+/* = REGISTER FORM == */
+div#am_register {
+	position:			relative;
+}
+div#am_register p.am_fb_login {
+	margin:				0 0 0 10px;
+}
+div#am_register table {
+	margin:				10px;
+}
+div#am_register table tr td {
+	padding:			5px 8px;
+}
+div#am_register div#am_reg_form_error {
+	position:			absolute;
+	top:				-10px;
+	left:				111px;
+}
+div#am_registering {
+	text-align:			center;
+	width:				350px;
+}
+div#am_register button.am_reg {
+	background-color:	#4798d0;
+	color:				white;
+}
+/* ================== */
+
+
+/* +++++++++++++++++++++ ++ ++++++++++++++++++++++ ++ +++++++++++++++++++ */
+
+
+/* = HOME Page == */
+div#am_join {
+	width:				415px;
+	min-height:			250px;
+	* height:			250px;
+	float: 				right;
+}
+div#am_intro {
+	width:				505px;
+	min-height:			320px;
+	* height:			320px;
+	float:				left;
+	background-color:	#c1c1c1;
+	margin-right:		20px;
+}
+/* ================== */
+
+
+/* +++++++++++++++++++++ ++ ++++++++++++++++++++++ ++ +++++++++++++++++++ */
+
+
+/* == Banner Page === */
+div#am_banner_you {
+	float:				left;
+	margin-top:			3px;
+}
+div#am_banner_me {
+	position:			absolute;
+	top:				5px;
+	right:				59px;
+	text-align:			right;
+}
+div#am_banner_me p {
+	padding-bottom:		4px;
+}
+div#am_banner_stats {
+	float:				left;
+	margin:				9px 18px 0 10px;
+}
+div#am_banner_description {
+	float:				left;
+	margin:				9px 0 0 15px;
+}
+div#am_banner_description p,
+div#am_banner_stats p {
+	font-size:			1.2em;
+	padding-bottom:		0;
+}
+div#am_banner_logo {
+	position:			absolute;
+	right:				0;
+	top:				-3px;
+}
+p.am_link_url {
+}
+tr#am_banner {
+	height:				auto;
+}
+table.am_banner_page {
+	width:				100%;
+	height:				100%;
+	border-collapse:	collapse;
+	border-spacing:		0;
+	empty-cells:		hide;
+}
+table.am_banner_page tr td {
+	padding:			0;
+	margin:				0;
+}
+table.am_banner_page tr {
+	width:				100%;
+}
+div#am_br {
+	position:			relative;
+	width:				100%;
+	height:				56px;
+	border-bottom:		2px solid #333333;
+	background: 		#f8f8f8 url('../images/skin/ffx/ffx_bg_banner.png') repeat-x scroll 0 0;
+}
+div#am_br div.am_share_items_mini {
+	float:				left;
+}
+div#am_br div.am_share_items_mini a {
+	position:			relative;
+	top:				-2px;
+}
+div#am_br div#am_gig_manage {
+    margin:				0 0 0 25px;
+    padding:			0;
+    height:				53px;
+    line-height:		53px;
+}
+div#am_br div#am_gig_manage p {
+	font-size:			1.05em;
+}
+ul#am_menu,
+div#am_logo,
+div#am_br div.am_share_items_mini,
+div#am_br div#am_gig_manage {
+	float:				left;
+}
+div#am_togglegig_response {
+    height:				34px;
+    line-height:		34px;
+    position:			absolute;
+    top:				70px;
+    left:				315px;
+}
+div#am_togglegig_response p {
+    font-size:			1.3em;
+}
+ul#am_menu {
+	height:				56px;
+	position:			absolute;
+	right:				20px;
+	top:				0;
+}
+ul#am_menu li {
+	display:			block;
+	float:				left;
+	list-style:			none;
+	margin:				0 15px 0 0;
+}
+ul#am_menu li.am_login_status {
+	margin:				7px 0 0 20px;
+}
+ul#am_menu li a {
+	text-decoration:	none;
+}
+ul#am_menu li.am_action a {
+	height:				56px;
+	line-height:		56px;
+	display:			block;
+	font-size:			1.6em;
+	font-weight:		bold;
+}
+tr#am_frame {
+	background:			#FFFFFF none repeat scroll 0 0;
+	height:				100%;
+	margin-top:			0;
+	vertical-align:		top;
+}
+iframe#am_content_frame {
+	height:				100%;
+	margin-top:			0;
+	width:				100%;
+}
+/* ================== */
+
+
+/* +++++++++++++++++++++ ++ ++++++++++++++++++++++ ++ +++++++++++++++++++ */
+
+
+/* ==== FOOT NAV ==== */
+div#am_foot_nav {
+	width:				475px;
+	height:				30px;
+	position:			absolute;
+	top:				28px;
+	right:				40px;
+	font-size:			1.35em;
+	text-align:			right;
+}
+div#am_foot_nav a {
+	margin:				0 8px;
+	color:				#d9d9d9;
+}
+/* =================== */
+
+
+/* +++++++++++++++++++++ ++ ++++++++++++++++++++++ ++ +++++++++++++++++++ */
+
+
+/* = NEWSLETTER FORM = */
+div#am_newsletter_optin {
+	position:			absolute;
+	width:				300px;
+	top:				12px;
+	left:				50px;
+}
+div#am_newsletter_optin input {
+	width:				180px;
+}
+div#am_newsletter_optin h3 {
+	color:				#f8f8f8;
+	font-size:			1.3em;
+	font-weight:		normal;
+	line-height:		1.4em;
+}
+/* =================== */
+
+
+/* +++++++++++++++++++++ ++ ++++++++++++++++++++++ ++ +++++++++++++++++++ */
+
+
+/* === FB/Profile PICS ====== */
+img.am_fb_pic_25 {
+	margin:				0 5px;
+	position:			relative;
+	top:				8px;
+	width:				25px;
+	height:				25px;
+}
+img.am_fb_pic_50 {
+	margin:				5px 10px 5px 0;
+	width:				50px;
+	height:				50px;
+}
+img.am_profile_pic {
+	float: 				left; 
+	margin: 			5px 5px 5px 0;
+	width:				50px;
+	height:				50px;
+}
+/* ================== */
+
+
+/* +++++++++++++++++++++ ++ ++++++++++++++++++++++ ++ +++++++++++++++++++ */
+
+
+/* === SHARE ITEMS ==== */
+*.am_share_results {
+	margin:				0 20px;
+	font-size:			1.2em;
+	float:				left;
+}
+ul.am_share_results {
+	list-style:			none;
+}
+*.am_share_items {
+	min-height:			80px;
+	padding-bottom:		15px;
+}
+*.am_share_items a span,
+*.am_share_items_small a span {
+	visibility:			hidden;
+}
+*.am_share_items a.am_facebook_share {
+	float:				left;
+	width: 				80px;
+	height:				80px;
+	display: 			block;
+	cursor: 			pointer;
+	background: 		transparent url('../images/sharing/ffx/ffx_sharing_243x160.png') no-repeat scroll 0 0;
+}
+*.am_share_items a.am_facebook_share:hover {
+	background: 		transparent url('../images/sharing/ffx/ffx_sharing_243x160.png') no-repeat scroll 0 -80px;
+}
+*.am_share_items a.am_twitter_share {
+	float:				left;
+	width: 				80px;
+	height:				80px;
+	display: 			block;
+	cursor: 			pointer;
+	background: 		transparent url('../images/sharing/ffx/ffx_sharing_243x160.png') no-repeat scroll -80px 0;
+}
+*.am_share_items a.am_twitter_share:hover {
+	background: 		transparent url('../images/sharing/ffx/ffx_sharing_243x160.png') no-repeat scroll -80px -80px;
+}
+*.am_share_items a.am_email_share {
+	float:				left;
+	width: 				80px;
+	height:				80px;
+	display: 			block;
+	cursor: 			pointer;
+	background: 		transparent url('../images/sharing/ffx/ffx_sharing_243x160.png') no-repeat scroll -160px 0;
+}
+*.am_share_items a.am_email_share:hover {
+	background: 		transparent url('../images/sharing/ffx/ffx_sharing_243x160.png') no-repeat scroll -160px -80px;
+}
+
+*.am_share_items_small {
+	min-width:			120px;
+}
+*.am_share_items_small a.am_facebook_share {
+	float:				right;
+	width: 				39px;
+	height:				39px;
+	display: 			block;
+	cursor: 			pointer;
+	background: 		transparent url('../images/sharing/ffx/ffx_sharing_118x78.png') no-repeat scroll 0 0;
+}
+*.am_share_items_small a.am_facebook_share:hover {
+	background: 		transparent url('../images/sharing/ffx/ffx_sharing_118x78.png') no-repeat scroll 0 -39px;
+}
+*.am_share_items_small a.am_twitter_share {
+	float:				right;
+	width: 				39px;
+	height:				39px;
+	display: 			block;
+	cursor: 			pointer;
+	background: 		transparent url('../images/sharing/ffx/ffx_sharing_118x78.png') no-repeat scroll -39px 0;
+}
+*.am_share_items_small a.am_twitter_share:hover {
+	background: 		transparent url('../images/sharing/ffx/ffx_sharing_118x78.png') no-repeat scroll -39px -39px;
+}
+*.am_share_items_small a.am_email_share {
+	float:				right;
+	width: 				39px;
+	height:				39px;
+	display: 			block;
+	cursor: 			pointer;
+	background: 		transparent url('../images/sharing/ffx/ffx_sharing_118x78.png') no-repeat scroll -78px 0;
+}
+*.am_share_items_small a.am_email_share:hover {
+	background: 		transparent url('../images/sharing/ffx/ffx_sharing_118x78.png') no-repeat scroll -78px -39px;
+}
+
+
+*.am_share_items_mini {
+	min-width:			88px;
+}
+*.am_share_items_mini a.am_facebook_share {
+	float:				right;
+	width: 				29px;
+	height:				29px;
+	display: 			block;
+	cursor: 			pointer;
+	background: 		transparent url('../images/sharing/ffx/ffx_sharing_88x58.png') no-repeat scroll 0 0;
+}
+*.am_share_items_mini a.am_facebook_share:hover {
+	background: 		transparent url('../images/sharing/ffx/ffx_sharing_88x58.png') no-repeat scroll 0 -29px;
+}
+*.am_share_items_mini a.am_twitter_share {
+	float:				right;
+	width: 				29px;
+	height:				29px;
+	display: 			block;
+	cursor: 			pointer;
+	background: 		transparent url('../images/sharing/ffx/ffx_sharing_88x58.png') no-repeat scroll -29px 0;
+}
+*.am_share_items_mini a.am_twitter_share:hover {
+	background: 		transparent url('../images/sharing/ffx/ffx_sharing_88x58.png') no-repeat scroll -29px -29px;
+}
+*.am_share_items_mini a.am_email_share {
+	float:				right;
+	width: 				29px;
+	height:				29px;
+	display: 			block;
+	cursor: 			pointer;
+	background: 		transparent url('../images/sharing/ffx/ffx_sharing_88x58.png') no-repeat scroll -58px 0;
+}
+*.am_share_items_mini a.am_email_share:hover {
+	background: 		transparent url('../images/sharing/ffx/ffx_sharing_88x58.png') no-repeat scroll -58px -29px;
+}
+
+a.fbconnect_login_button_huge {
+	display:			block;
+	width:				300px;
+	height:				50px;
+	background:			transparent url('../facebook/btn_facebook_connect_gigantic.png') no-repeat scroll 0 0;
+}
+a.fbconnect_login_button_huge span {
+	visibility:			hidden;
+}
+/* ================== */
+
+
+/* +++++++++++++++++++++ ++ ++++++++++++++++++++++ ++ +++++++++++++++++++ */
+
+
+/* ==== CLEARFIX ==== */
+.clearfix:after {
+	content: 			".";
+	display: 			block;
+	clear: 				both;
+	visibility: 		hidden;
+	line-height: 		0;	
+	height: 			0;
+}
+
+.clearfix {
+	display: 			inline-block;
+}
+
+html[xmlns] .clearfix {
+	display: 			block;
+}
+
+* html .clearfix {
+	height: 			1%;
+}
+/* ================== */
